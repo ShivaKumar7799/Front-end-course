@@ -1,0 +1,43 @@
+.addressPara{
+  background-color: yellow;
+}
+.addressPara{
+  background-color: red;
+  color: white;
+}
+a:link{
+  color: green;
+}
+a:hover{
+  color: blue;
+}
+a:active{
+  color: red;
+}
+a:visited{
+  color: yellow;
+}
+.second:hover{
+  background-color: black;
+  color: white;
+}
+.second:visited{
+  color: brown;
+}
+table,td,th{
+  border: 10px solid red;
+  /* border-collapse: collapse; */
+}
+td, th{
+  padding: 10px;
+}
+table{
+  border-spacing: 20px;
+}
+ol{
+  list-style-type: none;
+}
+textarea{
+  width: 300px;
+  /* height: 100px; */
+}

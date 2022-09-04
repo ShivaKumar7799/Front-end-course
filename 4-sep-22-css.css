@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+}
+#para{
+  color: red;
+  font-size: 20px;
+  padding: 10px;
+}
+.secPara{
+  color: blue;
+  font-size: 30px;
+}
+p{
+  color: green;
+}
+p.secPara{
+  color: aqua;
+}
+span.secPara{
+  display: block;
+  color: brown;
+  border: 1px solid red;
+  margin: 5px 20px ;
+  padding: 10px;
+}
+span:first-child{
+  margin-bottom: 5px;
+}
+/* h1{
+  color: red;
+}
+p{
+  color: red;
+}
+span{
+  color: red;
+} */
+/* h1,p,span{
+  color: red;
+} */
+
+/* p:first-child{
+  color: red;
+}
+p:nth-child(5){
+  color: blue;
+}
+p:nth-child(even){
+  color: orange;
+}
+p:nth-child(odd){
+  color: green;
+}
+p:hover{
+  color: blueviolet;
+}
+p::first-letter{
+  color: blue;
+  font-size: 50px;
+}
+:not(p){
+  color: aqua;
+} */
+/* .one.two{
+  color: red;
+} */
+/* .divClass > p{ 
+  color: red;
+} */
+
+p + span{
+  color: orange;
+}
+h1+p{
+  color: red;
+}
+h1{
+  background-color: red;
+  color: blue;
+  opacity: 0.3;
+  width: 200px;
+}
+h1:hover{
+  opacity: 1;
+  transition: 5s;
+}
+p{
+  border: 1px solid red;
+  margin: 10px;
+  padding: 20px;
+  /* border-radius: 20px; */
+}
+div{
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.no-box-size{
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+}
+.box-size{
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  box-sizing: border-box;
+  border: 2px solid yellow;
+  outline: 5px solid red;
+}
