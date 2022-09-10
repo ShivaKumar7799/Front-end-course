@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animations</title>
+</head>
+<style>
+  .animations{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: boxAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+  }
+  @keyframes boxAnimation{
+    /* from{
+      background-color: red;
+    }
+    to{
+      color: white;
+      background-color: blue;
+      transform: translate(100px,100px);
+    } */
+    0%{
+      background-color: red;
+    }
+    50%{
+      background-color: green;
+    }
+    100%{
+      background-color: orange;
+    }
+  }
+</style>
+<body>
+  <div class="animations">
+    animations
+  </div>
+</body>
+</html>
