@@ -185,7 +185,103 @@ let holidayName;
 // }
 // console.log(holidayName)
 
+//doubts
 
+// let x = 10;
+// let y = "10";
 
+// console.log(x = y);  // single equal to means assigning a value
+// console.log(x == y);  // double equal to compares values
+// console.log(x === y);  // triple equal to compares both values and types
 
+// console.log("my name is \"john\" name");
+// console.log("It's alright");
+
+// let firstPerson = "madhu";
+// let secondPerson = "vishnu";
+
+// console.log(firstPerson + " " + "and" + " " + secondPerson  + "are friends");
+// console.log(`${firstPerson} and ${secondPerson} are friends`);
+
+//for loop
+
+// for( let i = 5 ; i <= 10; i++){
+//   if(i % 2 !== 0){
+//   console.log("the value of i =", i);
+//   }
+// }
+
+// console.log("the value of i outside block", i);
+
+// while loop
+
+// let i = 5;
+// while( i < 10){
+//   console.log(i);
+//   i++
+// }
+
+//do while
+// let i = 1;
+// do{
+//   console.log(i);
+//   i++;
+// } while( i < 10)
+
+// do{
+//   var i = window.prompt("enter a number not betwenn 50 and 75");
+// } while( i > 50 && i < 75)
+
+// do{
+//   var i = window.prompt("enter your age")
+// } while( i < 18);
+
+// console.log(i)
+
+console.log(fruits);
+
+// for(let i = 0 ; i< fruits.length; i++){
+//   console.log(fruits[i])
+// }
+
+// for(let i = 0 ; i< fruits.length; i++){
+//   if(fruits[i] == "orange"){
+//     console.log(i);
+//   }
+// }
+
+// for(let i = 1; i < 10;i++ ){
+//     if(i == 5){
+//       continue;
+//     }
+//     console.log(i)
+// }
+
+// for(let i = 1; i < 10;i++ ){
+//   if(i == 5){
+//     continue;
+//   }
+//   console.log(i)
+// }
+fruits.push("kiwi")
+
+// for of loop
+
+// for(const item of fruits){
+//     console.log(item)
+// }
+
+// console.log("--------")
+
+// for(let i = 0 ;i < fruits.length; i++){
+//   console.log(fruits[i])
+// }
+
+// const numbers = new Set([1,2,3,4,3,5,3,1,2,3,1,2,3,67,84,35,3]);
+// console.log(numbers);
+
+// const studentNames = ["vishnu", "shiva", "madhu", "shiva","madhu","venky","Ram"]
+
+// const names = new Set(studentNames);
+// console.log(names,"student names")
 
