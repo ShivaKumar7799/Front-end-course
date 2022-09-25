@@ -83,22 +83,23 @@ function Person(firstName, lastName, age, city){
   this.city = city;
 }
 
-const shiva = new Person("shiva","kumar",25,"vizag");
-const vishnu = new Person("vishnu","vardhan", 27, "hyderabad")
-const madhu = new Person("madhu","sudhan",28,"dubai");
+const employee1 = new Person("shiva","kumar",25,"vizag");
+const employee2 = new Person("vishnu","vardhan", 27, "hyderabad")
+const employee3 = new Person("madhu","sudhan",28,"dubai");
 
+console.log(employee1.age)
 
-console.log(shiva)
+// console.log(shiva)
 
-console.log(shiva.city)
-console.log(vishnu.city)
-console.log(madhu.city)
+// console.log(shiva.city)
+// console.log(vishnu.city)
+// console.log(madhu.city)
 
-console.log(shiva.lname);
+// console.log(shiva.lname);
 
-const shiva2 = shiva;  //if we copy objects directly it will effecct both
+// const shiva2 = shiva;  //if we copy objects directly it will effecct both
 
-shiva2.fname = "abcd"
+// shiva2.fname = "abcd"
 
-console.log(shiva2.fname);
-console.log(shiva.fname)
+// console.log(shiva2.fname);
+// console.log(shiva.fname)
